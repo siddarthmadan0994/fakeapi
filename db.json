@@ -1,0 +1,44 @@
+{
+  "id": 1040,
+  "name": "example_campaign",
+  "folderName": "Folder1",
+  "type": "EMAIL",
+  "purpose": "PROMOTIONAL",
+  "listName": "MasterList",
+  "htmlMessagePath": "/messagelibrary/email/1040/Message.htm",
+  "textMessagePath": "/messagelibrary/email/1040/Message.itl.txt",
+  "enableLinkTracking": false,
+  "attachmentPaths": [
+    "/contentlibrary/example/docs/my.htm"
+  ],
+  "enableExternalTracking": false,
+  "subject": "EMD Camp",
+  "fromName": "api.user",
+  "fromEmail": "api.user@responsys.com",
+  "replyToEmail": "api.user@responsys.com",
+  "useUTF8": false,
+  "locale": "en",
+  "trackHTMLOpens": true,
+  "trackConversions": false,
+  "sendTextIfHTMLUnknown": false,
+  "unsubscribeOption": "OPTOUT_SINGLE_CLICK",
+  "autoCloseOption": "AUTO_CLOSE_X_DAYS_AFTER_LAST_RESPONSE",
+  "autoCloseValue": "180",
+  "links": [
+    {
+      "rel": "self",
+      "href": "/rest/api/v1.3/campaigns/EMD Camp1",
+      "method": "GET"
+    },
+    {
+      "rel": "update",
+      "href": "/rest/api/v1.3/campaigns/EMD Camp1",
+      "method": "PUT"
+    },
+    {
+      "rel": "create",
+      "href": "/rest/api/v1.3/campaigns",
+      "method": "POST"
+    }
+  ]
+}
